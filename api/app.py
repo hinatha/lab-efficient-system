@@ -34,6 +34,7 @@ def txt2xlsx():
 
     # テキストファイルを読み込む
     for file_name in natsorted(os.listdir(input_folder)):
+        print(file_name)
         if not file_name.lower().endswith(".txt"):
             continue
         
