@@ -27,6 +27,17 @@ et-xmlfile==1.1.0
 natsort==8.1.0
 openpyxl==3.0.9
 
+## How to Jupiter notebook
+
+1. Make direcotory of input
+2. Execute below command in file
+
+```bash
+!pip install natsort
+```
+
+3. Execute app in file
+
 ## In case of Mac
 
 ## Installation

@@ -1,2 +1,4 @@
 api/.venv
 api/.DS_Store
+.DS_Store
+api/input
