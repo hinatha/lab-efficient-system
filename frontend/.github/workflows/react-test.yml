@@ -1,0 +1,14 @@
+name: React test 
+
+on: [push, pull_request]
+
+jobs:
+  test:
+    name: Check the source code
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v2
+      - name: Install packages
+        run: npm ci
+      - name: Prettier and ESLinter
+        run: npm run lint && fmt
